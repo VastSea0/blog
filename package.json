@@ -22,7 +22,7 @@
 	"scripts": {
 		"dev": "npx tinacms dev -c \"astro dev\"",
 		"start": "astro dev",
-		"build": "pnpm install sharp --save-dev &&  tinacms build &&  astro build",
+		"build": "pnpm install sharp --save-dev && astro build",
 		"de": "astro preferences disable devToolbar",
 		"sync": "astro sync",
 		"preview": "astro preview",
